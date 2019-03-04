@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TableRow>
+    <EditText
+        android:id="@+id/Numa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:width="250px"
+        android:layout_column="1"
+        />
+
+    <EditText
+        android:id="@+id/Numb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:width="250px"
+        android:layout_column="2"
+        />
+</TableRow>
+    <TableRow>
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:width="250px"
+        android:layout_column="1"
+
+         />
+        <EditText
+            android:id="@+id/Numc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:width="250px"
+            android:layout_column="2"
+            />
+    </TableRow>
+    <TableRow>
+    <Button
+        android:id="@+id/suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suma"
+        android:width="250px"
+        android:layout_column="1"
+        />
+        <Button
+            android:id="@+id/sumans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suma con ans"
+            android:width="250px"
+            android:layout_column="2"
+            />
+</TableRow>
+<TableRow>
+    <Button
+    android:id="@+id/resta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Resta"
+        android:width="250px"
+        android:layout_column="1"
+    />
+    <Button
+        android:id="@+id/restaans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resta con ans"
+        android:width="250px"
+        android:layout_column="2"
+        />
+</TableRow>
+    <TableRow>
+    <Button
+    android:id="@+id/multi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Multi"
+        android:width="250px"
+        android:layout_column="1"
+    />
+        <Button
+            android:id="@+id/multians"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multi con ans"
+            android:width="250px"
+            android:layout_column="2"
+            />
+    </TableRow>
+
+    <TableRow>
+    <Button
+        android:id="@+id/divi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divi"
+        android:width="250px"
+        android:layout_column="1"
+        />
+        <Button
+            android:id="@+id/divians"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Divi con ans"
+            android:width="250px"
+            android:layout_column="2"
+            />
+    </TableRow>
+
+
+
+</TableLayout>
